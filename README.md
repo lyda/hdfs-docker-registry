@@ -18,6 +18,7 @@ The following knobs can be used to configure this container:
 
   * `HADOOP_NN_HOST` (required): IP address of the hadoop host.
   * `HADOOP_NN_PORT` (required): Port of the hadoop host.
+  * `HADOOP_USER_NAME` (default: root): Hadoop user name.
   * `STORAGE_PATH` (default: /registry): Prefix on HDFS.
   * `LOCAL_STORAGE_PATH` (default: /hdfs/registry): Prefix on local fs -
     this should probably be a `VOLUME` in docker terminology because
