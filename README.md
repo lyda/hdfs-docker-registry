@@ -39,6 +39,8 @@ There are a number of things that could be done to improve this.
     suggest ways I can not do this.
   * The `hdfs-site.xml` probably needs tuning. And maybe there should
     be some knobs there.
+  * Move some logic out of the fetch script and into the docker file.
+    Use git urls for the python packages.  Something else for hadoop?
 
 See also the todo list in the
 [hdfs driver](git@gitlab.insight-centre.org:research-ops/soma-apps.git).
